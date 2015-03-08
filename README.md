@@ -1,4 +1,4 @@
-Z-Ray-Drupal
+Z-Ray-OpenScholar
 =============
 
 This is an extension to add functionality to the Zend Server Z-Ray. It will result 
