@@ -23,7 +23,7 @@ $zre->traceFunction('lock_acquire', function(){}, array($drupalExt, 'LockAcquire
 $zre->traceFunction('lock_release', function(){}, array($drupalExt, 'LockRelease'));
 $zre->traceFunction('lock_wait', function(){}, array($drupalExt, 'LockWait'));
 	
-class ZRayExtensionDrupal {
+class ZRayExtensionOpenScholar {
 	public function ModuleInvoke($context, & $storage) {
 		$module = $context['functionArgs'][0];
 		$action = $context['functionArgs'][1];
